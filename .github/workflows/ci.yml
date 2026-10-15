@@ -1,9 +1,3 @@
-name: CI
-
-on:
-  push:
-  pull_request:
-
 jobs:
   pruebas:
     runs-on: ubuntu-latest
@@ -21,3 +15,4 @@ jobs:
 
       - name: Ejecutar la suite de la Práctica 7
         run: npm test
+        
