@@ -55,7 +55,7 @@ jobs:
       - name: Escaneo de dependencias
         run: npm audit --audit-level=critical
 
-    imagen:
+  imagen:
     needs: [pruebas, calidad]
     runs-on: ubuntu-latest
 
