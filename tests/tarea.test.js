@@ -21,7 +21,7 @@ describe("estadoDeTarea", () => {
 
     expect(
       estadoDeTarea(tarea, new Date("2026-01-11"))
-    ).toBe("PENDIENTE");
+    ).toBe("ATRASADA");
   });
 
   test("una tarea completada nunca figura como atrasada", () => {
