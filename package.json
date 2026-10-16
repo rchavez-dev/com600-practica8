@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest --runInBand",
-  "test:unit": "jest --testPathIgnorePatterns int.test",
-  "test:int": "jest int.test --runInBand",
-  "test:cov": "jest --coverage",
-  "lint": "eslint src tests",
-  "verify": "npm install && npm run lint && npm test"
-},
+    "test": "jest --runInBand",
+    "test:unit": "jest --testPathIgnorePatterns int.test",
+    "test:int": "jest int.test --runInBand",
+    "test:cov": "jest --coverage",
+    "lint": "eslint src tests",
+    "verify": "npm install && npm run lint && npm test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
