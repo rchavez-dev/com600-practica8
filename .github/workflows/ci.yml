@@ -53,4 +53,4 @@ jobs:
         run: npx eslint src tests --max-warnings 0
 
       - name: Escaneo de dependencias
-        run: npm audit --audit-level=critical
+        run: npm audit --audit-level=high
